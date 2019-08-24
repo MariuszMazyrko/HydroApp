@@ -1,21 +1,18 @@
-##### WTF - coTenFrontend!?
+###### WTF - coTenFrontend!?
 #### Week VIII (8.07.2019) 
+
 
 # HydroApp
 
 
-
 ### The technologies used this week are:
-* Prefix
-* Google fonts
-* Git branches
-* Markdown
-* JS - tables
-* JS - loops
-* JS - cookies
+* HTML
+* CSS
+* JavaScript
 
-[-- Figma design project --](https://www.figma.com/file/q2ben5erKdPiPtsvOeNYDb/Product-Design-Kit-1.0-3.12.2018)
 
-[-- MY SIMPLE EDITOR --](https://mariuszmazyrko.github.io/wk_VIII_08.07.2019/)
+[-- Figma design project --](https://www.figma.com/file/kugvC2YYqwZt7iLi9Z6ZlZ/hydrapp)
+
+[-- HydroApp --](#)
 
 ![WTF - coTenFrontend!?](https://edu.devstyle.pl/wp-content/uploads/2019/03/wtf-wpidea.png) 
