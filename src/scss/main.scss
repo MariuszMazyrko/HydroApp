@@ -6,11 +6,66 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-width: 360px;
+  overflow: hidden;
+  background: #3767AD;
+
+  // display: flex;
+  // align-content: center;
+  // justify-items: center;
+
+
+
+  .container {
+    h1 {
+      margin-top: 60px;
+      color: white;
+      font-family: 'Roboto',
+        sans-serif;
+      font-size: 42px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    .hydro__box {
+
+      &__glass {
+        display: block;
+        position: relative;
+        padding-top: 40px;
+        margin: 0 auto;
+      }
+    }
+
+    .hydro__box__number,
+    .hydro__box__number--js {
+      position: relative;
+      font-size: 112px;
+      text-align: center;
+      margin-top: -170px;
+    }
+  }
+
+  .button {
+
+    &__add,
+    &__add--js {}
+
+
+  }
+
+
+
+
 }
