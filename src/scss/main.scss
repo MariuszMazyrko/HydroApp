@@ -24,7 +24,7 @@ body {
 
 
   .container {
-    margin-top: 20px;
+
 
     h1 {
 
@@ -38,10 +38,11 @@ body {
 
     .hydro__box {
 
+
       &__glass {
         display: block;
         position: relative;
-        padding-top: 40px;
+        padding-top: 30px;
         margin: 0 auto;
       }
 
@@ -51,44 +52,60 @@ body {
         position: relative;
         font-size: 112px;
         text-align: center;
-        margin-top: -170px;
+        margin-top: -600px;
       }
 
 
 
       // BUTTON
 
+      .button {
+        display: grid;
+        place-items: center center;
+        background: #3767AD;
+        padding-top: 30px;
 
-      .example_d {
-        width: 216px;
-        height: 47px;
-        color: #fff !important;
-        font-size: 24px;
+        a {
+          display: block;
+          margin: -1px;
+          border: 3px white solid;
+          padding: 10px;
+          width: 180px;
+
+        }
+
+
+        &__cont--add,
+        &__cont--remove,
+        &__cont--remove--all {
+          display: block;
+          text-decoration: none;
+          background-color: #3767AD;
+          border: 0px;
+          padding: 6px;
+        }
+
+      }
+
+      .btn {
+        font-size: 18px;
         font-family: 'Roboto',
           sans-serif;
-        line-height: 3px;
-        text-decoration: none;
-        background-color: #3767AD;
-        padding: 20px;
-        margin-top: 100px;
-        margin-bottom: 30px;
-        border: 3px solid white !important;
-        border-radius: 6px;
-        display: inline-block;
+
+        border-radius: 15px;
+
+
         transition: all 0.3s ease 0s;
       }
 
-      .example_d:hover {
+      .btn:hover {
         color: #fff !important;
         border-radius: 50px;
+        text-decoration: none;
         border-color: white !important;
         transition: all 0.3s ease 0s;
       }
 
-      .button__cont--add {
-        margin-bottom: -100px;
-
-      }
 
 
 
@@ -97,37 +114,28 @@ body {
 
 
 
-      // .button {
-      // display: grid;
-      // place-items: center center;
 
 
-      // &__add,
-      // &__remove {
-      //   display: grid;
-      //   place-items: center center;
-      //   width: 216px;
-      //   height: 47px;
-      //   border-radius: 13px;
-      //   text-decoration: none;
-      //   // border: 1px solid white;
-      //   background-color: #3767AD;
-      //   color: white;
-      //   font-family: 'Roboto',
-      //     sans-serif;
-      //   letter-spacing: 1px;
-      //   cursor: pointer;
+    }
 
-      // }
+    h3 {
+      display: block;
+      position: relative;
+      font-family: 'Roboto',
+        sans-serif;
+      font-size: 24px;
+      text-align: center;
+      padding-top: 40px;
 
-      // &__add {
-      //   position: flex;
-      //   margin-top: 100px;
-      //   margin-bottom: 30px;
-      // }
+    }
 
-      // &__remove {
-      //   border: none;
+    .result__info {
+      display: block;
+      position: relative;
+      font-family: 'Roboto',
+        sans-serif;
+      font-size: 20px;
+      text-align: center;
     }
   }
 }
