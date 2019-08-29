@@ -14,7 +14,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-<<<<<<< HEAD
 // place your code below
 
 const number = document.querySelector('.hydro__box__number--js');
@@ -39,7 +38,7 @@ addGlass.addEventListener('click', () => {
   } else if (number.innerHTML >= 1) {
     number.innerHTML++
     localStorage.setItem(key, number.innerHTML);
-    summary.innerHTML = (`You drank ${key} ${localStorage.getItem(key, number.innerHTML)} glasses of water today`);
+    summary.innerHTML = (`${key} You drank ${localStorage.getItem(key, number.innerHTML)} glasses of water today`);
   }
 });
 
@@ -62,6 +61,3 @@ removeAll.addEventListener('click', () => {
   localStorage.setItem(key, 0);
   summary.innerHTML = 'You drank 0 glasses of water today! Go now and drink some!';
 });
-=======
-// place your code below
->>>>>>> e2e5c1993206879e09a1fce01971dfd58746dfb3
